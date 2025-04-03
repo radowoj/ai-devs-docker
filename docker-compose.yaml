@@ -1,0 +1,9 @@
+services:
+  node:
+    build:
+      context: ./docker/node
+      dockerfile: Dockerfile
+    volumes:
+      - ./3rd-devs:/usr/src/3rd-devs
+    ports:
+      - "3000:3000"
