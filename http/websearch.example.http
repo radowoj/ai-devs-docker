@@ -1,0 +1,7 @@
+### Web search request
+POST http://localhost:3000/api/chat
+Content-type: application/json
+
+{
+    "messages": [{"role" : "user", "content": "Question! What kind of bear is best?"}]
+}
